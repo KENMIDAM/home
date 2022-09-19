@@ -3,7 +3,7 @@
 <head>
 　　<meta charset='utf-8'/>
   <title>福技脳</title>
-  <meta property="og:title" content="たいとる" />
+  <meta property="og:title" content="" />
   <meta property="og:description" content="せつめいせつめい" />
   <meta name="theme-color" content="#ECECF7" />
   <meta name="msapplication-TileColor" content="#ECECF7" />
@@ -18,10 +18,19 @@
   <meta name="format-detection" content="telephone=no" />
 
   <link rel="stylesheet" href="index.css"/>
+
+  <script>
+  window.onload= function time(){
+  setInterval(function(){
+      let dd = new Date();
+      document.getElementById("T1").innerHTML = dd.toLocaleDateString();
+  },1000)
+}
+  </script>
 </head>
 <header>
   <h1>福技脳</h1>
-  <script type="module" src="time.js"></script>
+  <div id="T1"></div>
 </header>
 <body style="background: rgb(255,255,255);">
     <!--<img src="kodai_fish_cephalaspis.png">-->
@@ -44,7 +53,7 @@
       </div>
     </div>
   </div>
-  <div class=footer>
+  <div class="footer">
 
   </div>
 </body>
