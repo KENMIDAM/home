@@ -29,7 +29,7 @@ function clock() {
     //文字列出力
     document.querySelector(".clock-date").innerText = today;
     document.querySelector(".clock-time").innerText = time;
-    //カウントする
-    setInterval(clock,1000);
+    
 }
- 
+//カウントする
+setInterval(clock,1000); 
