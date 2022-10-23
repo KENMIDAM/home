@@ -4,7 +4,7 @@ const clock = () =>{
 
     //年月日/曜日/時・分・秒の設定
     let year = d.getFullYear();
-    let month = d.getMonth();
+    let month = d.getMonth() + 1;
     let date = d.getDate();
     
     let dayNum = d.getDay();
