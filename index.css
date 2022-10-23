@@ -15,7 +15,7 @@
   text-align: right;
 }
 .clock{
-  font-family: 'Share Tech Mono', monospace;
+  /*font-family: 'Share Tech Mono', monospace;*/
   color: #b3d0d7;
   /*text-shadow: 0 0 20px #80a491;*/
   line-height: 1.2;
