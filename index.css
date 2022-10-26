@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-.container{
+/*.container{
   width: 100%;
   height: 100vh;
   background-color: #15151e;
@@ -13,7 +13,7 @@
   align-items: right;
   justify-content: right;
   text-align: right;
-}
+}*/
 .clock{
   /*font-family: 'Share Tech Mono', monospace;*/
   color: #b3d0d7;
@@ -21,7 +21,7 @@
   line-height: 1.2;
   text-align: center;
 }
-.clock-date{
+/*.clock-date{
   font-size: 25px;
 }
 .clock-time{
@@ -34,7 +34,7 @@
   .clock-time{
     font-size: 15vw;
   }
-}
+}*/
 
 .header {
   background-color: white;
