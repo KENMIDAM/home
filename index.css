@@ -14,28 +14,6 @@
   justify-content: right;
   text-align: right;
 }*/
-.clock{
-  /*font-family: 'Share Tech Mono', monospace;*/
-  color: #b3d0d7;
-  /*text-shadow: 0 0 20px #80a491;*/
-  line-height: 1.2;
-  text-align: center;
-}
-/*.clock-date{
-  font-size: 25px;
-}
-.clock-time{
-  font-size: 100px;
-}
-@media screen and (max-width: 500px){
-  .clock-date{
-    font-size: 5vw;
-  }
-  .clock-time{
-    font-size: 15vw;
-  }
-}*/
-
 .header {
   background-color: white;
   padding: 0 .5em;
