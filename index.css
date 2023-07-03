@@ -21,10 +21,8 @@
   display: flex;
   justify-content: space-between;
 }
-.activate{
-  width: 70%;
+#activate{
+  width: 60%;
   padding: 16px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;  
+  border: 1px solid black;
 }
