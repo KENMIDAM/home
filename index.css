@@ -17,12 +17,3 @@
   max-width: 1024px;
   margin: 0 auto;
 }
-.profile-content {
-  display: flex;
-  justify-content: space-between;
-}
-.activate{
-  margin: 0 auto;
-  padding: 8px;
-  border: 1px solid black;
-}
