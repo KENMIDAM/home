@@ -21,8 +21,8 @@
   display: flex;
   justify-content: space-between;
 }
-#activate{
-  width: 60%;
-  padding: 16px;
+.activate{
+  margin: 0 auto;
+  padding: 8px;
   border: 1px solid black;
 }
