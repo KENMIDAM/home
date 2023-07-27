@@ -1,25 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
 }
 
 .wrapper{
-  max-width: 1024px;
+  max-width: 1280px;
+  min-width: 50%;
   margin: 0 auto;
-  padding: 0 ;
 }
-.top-bg{
-  height: 100vh; /* 全画面表示 */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(kodai_fish_cephalaspis.png);
+
+.header{
+  height: 64px;
+  margin: 40px;
+  border-bottom: 2px solid #97cdf3;
+  border-width: 100%;
 }
 
 .top-content{
+  height: 128px;
+  margin: 0 auto;
   text-align: center;
-  padding-top: 512px;
+  color: #e6f0f0;
+  background-color: #7acbe1;
+}
+
+.footer{
+  height: 128px;
+  text-align: center;
+  border:2px solid #e6f0f0;
 }
