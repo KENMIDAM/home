@@ -33,6 +33,12 @@ body {
   height: 128px;
   border:2px solid #e6f0f0;
 }
+.link-content{
+  margin: 16px;
+  width: 256px;
+  height: 128px;
+  border:2px solid #e6f0f0;
+}
 
 .footer{
   height: 96px;
