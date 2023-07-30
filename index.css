@@ -4,17 +4,22 @@ body {
   font-family: sans-serif;
 }
 
-.wrapper{
+.main{
   max-width: 1024px;
   margin: 0 auto;
-  padding: 0 2%;
+}
+.main-content{
+  display: flex;
+  max-width: 1024px;
 }
 
 .header{
-  display: flex;
   border-bottom: 2px solid #97cdf3;
 }
 
+.content-area{
+  width: 75%;
+}
 .top-content{
   margin: 0 auto;
   text-align: center;
@@ -24,24 +29,15 @@ body {
 .top-message{
   font-size: 32px;
 }
-.content-area{
-  height: 512px;
-}
 .content{
-  margin: 16px;
-  width: 256px;
-  height: 128px;
-  border:2px solid #e6f0f0;
-}
-.link-content{
-  margin: 16px;
-  width: 256px;
-  height: 128px;
   border:2px solid #e6f0f0;
 }
 
+.profile{
+  width: 25%;
+}
+
 .footer{
-  height: 96px;
   text-align: center;
   border:2px solid #e6f0f0;
 }
